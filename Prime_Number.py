@@ -9,7 +9,8 @@ def prime_number(n):
         else:
             return True
 #Prime number inputted
-output=prime_number(46)
+number=int(input("Enter a number: "))
+output=prime_number(number)
 
 #Output statement
 if output == False:
