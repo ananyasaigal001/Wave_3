@@ -1,8 +1,9 @@
+#Determining whether or not the number is prime
 def prime_number(n):
     #Determines if number is greter or less than 1
     if n<=1:
         print("False")
-    #Determines if the number is prime or not
+    #Checks if the number is prime or not
     for i in range(2,n):
         if n%i==0:
             return False
