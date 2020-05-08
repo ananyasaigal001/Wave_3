@@ -1,4 +1,4 @@
-
+#Calculating shipment cost
 def shipping_calculator(n):
     return (10.95+2.95*(n-1))
 
